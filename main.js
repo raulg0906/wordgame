@@ -43,11 +43,11 @@ var commonWords = [
       }
   })
   I.subscribe('win', function(){
-      root.innerHTML = <h1>YOU WIN!!</h1>
+      root.innerHTML = '<h1>YOU WIN!!</h1>'
 
   })
   I.subscribe('lose', function(){
-    root.innerHTML = <h1>YOU LOSE</h1>
+    root.innerHTML = '<h1>YOU LOSE</h1>'
   })
 
   Game.chooseWord(commonWords)
